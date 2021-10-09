@@ -1,0 +1,3 @@
+[submodule "Daisykit/daisykit"]
+	path = Daisykit/daisykit
+	url = https://github.com/VNOpenAI/daisykit.git
