@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28894DA92709916D00A860F6 /* persons.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28894DA82709916D00A860F6 /* persons.jpg */; };
-		28894DAB2709B01100A860F6 /* daisykitIcon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 28894DAA2709B01100A860F6 /* daisykitIcon.jpeg */; };
+		286D25E32711954F00169800 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D25E02711954F00169800 /* Data.swift */; };
+		286D25E42711954F00169800 /* Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D25E12711954F00169800 /* Resize.swift */; };
+		286D25E52711954F00169800 /* ToArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D25E22711954F00169800 /* ToArray.swift */; };
+		286D25E72711957700169800 /* persons.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 286D25E62711957700169800 /* persons.jpg */; };
+		286D25E92711958800169800 /* daisykitIcon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 286D25E82711958800169800 /* daisykitIcon.jpeg */; };
 		28C635F5270B42C900DBE6E8 /* Yolov5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C635F4270B42C900DBE6E8 /* Yolov5View.swift */; };
 		28C635F8270B561800DBE6E8 /* ListModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C635F7270B561800DBE6E8 /* ListModelData.swift */; };
 		28C635FA270B573700DBE6E8 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C635F9270B573700DBE6E8 /* Models.swift */; };
@@ -22,16 +25,16 @@
 		B3AD78FB25C50E340070E830 /* openmp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AD78F925C50E330070E830 /* openmp.framework */; };
 		B3AD78FC25C50E340070E830 /* ncnn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AD78FA25C50E340070E830 /* ncnn.framework */; };
 		B3AD790325C50EB90070E830 /* Yolov5.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AD790225C50EB90070E830 /* Yolov5.swift */; };
-		B3E69B0225C555AA003D5A92 /* ToArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E69AFF25C555A9003D5A92 /* ToArray.swift */; };
-		B3E69B0325C555AA003D5A92 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E69B0025C555A9003D5A92 /* Data.swift */; };
-		B3E69B0425C555AA003D5A92 /* Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E69B0125C555AA003D5A92 /* Resize.swift */; };
 		B3E69B0D25C55C92003D5A92 /* NcnnWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = B3E69B0C25C55C92003D5A92 /* NcnnWrapper.mm */; };
 		B3E69B1A25C59AC4003D5A92 /* YoloV5Focus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3E69B1825C59AC4003D5A92 /* YoloV5Focus.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		28894DA82709916D00A860F6 /* persons.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = persons.jpg; path = ../../../../../Downloads/persons.jpg; sourceTree = "<group>"; };
-		28894DAA2709B01100A860F6 /* daisykitIcon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = daisykitIcon.jpeg; path = ../../../../Downloads/daisykitIcon.jpeg; sourceTree = "<group>"; };
+		286D25E02711954F00169800 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		286D25E12711954F00169800 /* Resize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resize.swift; sourceTree = "<group>"; };
+		286D25E22711954F00169800 /* ToArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToArray.swift; sourceTree = "<group>"; };
+		286D25E62711957700169800 /* persons.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = persons.jpg; path = ../../../../Downloads/persons.jpg; sourceTree = "<group>"; };
+		286D25E82711958800169800 /* daisykitIcon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = daisykitIcon.jpeg; path = ../../../Downloads/daisykitIcon.jpeg; sourceTree = "<group>"; };
 		28C635F4270B42C900DBE6E8 /* Yolov5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yolov5View.swift; sourceTree = "<group>"; };
 		28C635F6270B55CA00DBE6E8 /* ListModels.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ListModels.json; sourceTree = "<group>"; };
 		28C635F7270B561800DBE6E8 /* ListModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModelData.swift; sourceTree = "<group>"; };
@@ -50,9 +53,6 @@
 		B3AD78FA25C50E340070E830 /* ncnn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ncnn.framework; sourceTree = "<group>"; };
 		B3AD790225C50EB90070E830 /* Yolov5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yolov5.swift; sourceTree = "<group>"; };
 		B3E69AF125C53DF4003D5A92 /* CustomLayerRegistry.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CustomLayerRegistry.hpp; sourceTree = "<group>"; };
-		B3E69AFF25C555A9003D5A92 /* ToArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToArray.swift; path = ../../../SqueezenetSwift/SqueezenetSwift/Extensions/ToArray.swift; sourceTree = "<group>"; };
-		B3E69B0025C555A9003D5A92 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Data.swift; path = ../../../SqueezenetSwift/SqueezenetSwift/Extensions/Data.swift; sourceTree = "<group>"; };
-		B3E69B0125C555AA003D5A92 /* Resize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Resize.swift; path = ../../../SqueezenetSwift/SqueezenetSwift/Extensions/Resize.swift; sourceTree = "<group>"; };
 		B3E69B0C25C55C92003D5A92 /* NcnnWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NcnnWrapper.mm; sourceTree = "<group>"; };
 		B3E69B1025C55CB7003D5A92 /* NcnnWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NcnnWrapper.h; sourceTree = "<group>"; };
 		B3E69B1825C59AC4003D5A92 /* YoloV5Focus.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = YoloV5Focus.cpp; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 		B3AD78DD25C50C160070E830 /* Daisykit */ = {
 			isa = PBXGroup;
 			children = (
-				28894DAA2709B01100A860F6 /* daisykitIcon.jpeg */,
+				286D25E82711958800169800 /* daisykitIcon.jpeg */,
 				B3E69AF125C53DF4003D5A92 /* CustomLayerRegistry.hpp */,
 				B3AD78F425C50D3C0070E830 /* Yolov5Swift-Bridging-Header.h */,
 				B3E69B0C25C55C92003D5A92 /* NcnnWrapper.mm */,
@@ -124,7 +124,7 @@
 		B3AD78EE25C50CA50070E830 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				28894DA82709916D00A860F6 /* persons.jpg */,
+				286D25E62711957700169800 /* persons.jpg */,
 				B3AD78F025C50CCE0070E830 /* yolov5s.bin */,
 				B3AD78EF25C50CCC0070E830 /* yolov5s.param */,
 				28C635F6270B55CA00DBE6E8 /* ListModels.json */,
@@ -163,9 +163,9 @@
 		B3E69AFE25C55573003D5A92 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				B3E69B0025C555A9003D5A92 /* Data.swift */,
-				B3E69B0125C555AA003D5A92 /* Resize.swift */,
-				B3E69AFF25C555A9003D5A92 /* ToArray.swift */,
+				286D25E02711954F00169800 /* Data.swift */,
+				286D25E12711954F00169800 /* Resize.swift */,
+				286D25E22711954F00169800 /* ToArray.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -230,11 +230,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28894DA92709916D00A860F6 /* persons.jpg in Resources */,
 				B3AD78F125C50CCE0070E830 /* yolov5s.param in Resources */,
 				B3AD78E625C50C170070E830 /* Preview Assets.xcassets in Resources */,
 				B3AD78E325C50C170070E830 /* Assets.xcassets in Resources */,
-				28894DAB2709B01100A860F6 /* daisykitIcon.jpeg in Resources */,
+				286D25E92711958800169800 /* daisykitIcon.jpeg in Resources */,
+				286D25E72711957700169800 /* persons.jpg in Resources */,
 				B3AD78F225C50CCE0070E830 /* yolov5s.bin in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,11 +248,11 @@
 			files = (
 				28C635FA270B573700DBE6E8 /* Models.swift in Sources */,
 				B3E69B0D25C55C92003D5A92 /* NcnnWrapper.mm in Sources */,
-				B3E69B0325C555AA003D5A92 /* Data.swift in Sources */,
-				B3E69B0225C555AA003D5A92 /* ToArray.swift in Sources */,
+				286D25E42711954F00169800 /* Resize.swift in Sources */,
 				B3AD790325C50EB90070E830 /* Yolov5.swift in Sources */,
+				286D25E52711954F00169800 /* ToArray.swift in Sources */,
 				B3AD78E125C50C160070E830 /* ContentView.swift in Sources */,
-				B3E69B0425C555AA003D5A92 /* Resize.swift in Sources */,
+				286D25E32711954F00169800 /* Data.swift in Sources */,
 				28C635F5270B42C900DBE6E8 /* Yolov5View.swift in Sources */,
 				28C635F8270B561800DBE6E8 /* ListModelData.swift in Sources */,
 				B3E69B1A25C59AC4003D5A92 /* YoloV5Focus.cpp in Sources */,
